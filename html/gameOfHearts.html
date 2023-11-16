@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="../js/gameOfHearts.js"></script>
+    <link rel="stylesheet" type="text/css" href="../css/style.css">
+    <title>CAKE NINJA- משחק לבבות</title>
+    <link rel="icon" type="image/x-icon" href="../images/cakes/counterCake.png" />
+    <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.6.0/dist/confetti.browser.min.js"></script>
+</head>
+
+<body id="backgroundGame" onload="start()">
+    <center id="gameOver">
+        <div>
+            <h1 id="myScore"></h1>
+            <h1 id="maxi1"></h1>
+            <h1 id="maxi2"></h1>
+            <h1 id="maxi3"></h1>
+            <a href="home.html"><img style="width: 6vw; height: auto;" src="../images/exs/house_1f3e0 (1).png"></a>
+            <a href="gameOfHearts.html"><img style="width: 7vw; height: auto; "
+                    src="../images/exs/חץ סגול לימין.png"></a>
+            <div id="my-canvas"></div>
+        </div>
+    </center>
+    <header>
+        <span class="head"><img id="counterCake"
+                style="position:absolute; width: 7vw; height: auto; right: 7vw; bottom: 85vh;"
+                src="../images/cakes/counterCake.png"></span>
+        <span class="head">
+            <p id="score"
+                style="position:absolute; width: 7vw; height: auto; right: 85vw; bottom: 83vh; text-shadow: 0px 0px 15px rgb(163, 163, 245) ;">
+                0</p>
+        </span>
+        <span class="head" dir="rtl">
+            <div id="heart" style="position: absolute; width: 33vw; height: auto; right: 2vw; bottom: 85vh;"
+                style="user-select: none;"> </div>
+        </span>
+        <span class="head">
+            <p id="showName" style="position:absolute; width: 7vw; height: auto; right: 45vw; bottom: 83vh;"></p>
+        </span>
+    </header>
+
+    <div id="image-container"></div>
+    <div id="boom" style="display: none;"></div>
+    <div id="boom1" style="display: none;"></div>
+    <div id="boom2" style="display: none;"></div>
+    <div id="boom3" style="display: none;"></div>
+    <div id="custom-cursor"></div>
+    <audio id="backgroundMusic" autoplay loop>
+        <source src="../sounds/רקע.mp3" type="audio/mp3">
+    </audio>
+
+    <script>
+        const inputValue = JSON.parse(localStorage.getItem('inputValue'));
+        const name2 = document.getElementById('showName');
+        console.log(inputValue);
+        name2.innerHTML = inputValue;
+    </script>
+
+</body>
+</html>

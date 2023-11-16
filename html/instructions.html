@@ -1,0 +1,78 @@
+  <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="../css/style.css">
+    <title>CAKE NINJA-הוראות למשחק</title>
+    <link rel="icon" type="image/x-icon" href="../images/cakes/counterCake.png" />
+</head>
+<body dir="rtl" id="backgroundGame" >
+    <a href="home.html" ><img style="position:absolute; width: 5vw; height: auto; right: 94vw; bottom: 86vh;" src="../images/exs/cross-mark_274c.png"></a>
+    <!-- <p id="showName"></p> -->
+    <!-- <div id="div_instructions"> -->
+      <span id="id_instructions">
+    <!-- </div> -->
+    <h1>אז איך משחקים?</h1>
+    <p style="font-size: large;">
+      <b>מטרת המשחק: </b>
+      <br>
+פורסים כמה שיותר עוגות תוך הימנעות מפצצות והשגת הניקוד הגבוה ביותר בתוך מגבלת זמן נתונה או על ידי ניצול לבבות.
+<br><br>
+<b>הגדרת המשחק:</b>
+<br>
+1. בחר את מצב המשחק:
+<br>
+א. מצב לב: פרוס עוגות והימנע מפצצות כדי לצבור נקודות.
+<br>
+ב. מצב זמן: פרוס עוגות וצבור נקודות בתוך מגבלת זמן נתונה. 
+<br>
+2. התחל את המשחק על ידי הקשה על הלב- מעבר למשחק הלבבות או שעון החול- מעבר למשחק עם מגבלת הזמן. 
+<br><br>
+<b>בקרות המשחק:</b>
+<br>
+1. השתמש בחרב הוירטואלית כדי לפרוס את העוגות. 
+<br>
+2. הימנעו מחיתוך פצצות, שכן חיתוך פצצה יוריד לך חיים.
+<br><br>
+<b>צבירת נקודות:</b>
+<br>
+1. חיתוך עוגה יזכה אותך בנקודות, ומספר הנקודות עשוי להשתנות בהתאם לסוגה.
+<br>
+2. במשחק המוגבל בזמן- חיתוך פצצה יגרור עונש, בניכוי נקודות מהניקוד הכולל שלך.
+<br><br>
+<b>סוף המשחק:</b>
+<br>
+1. במצב לב, המשחק יסתיים כשיגמרו לך הלבבות.
+<br>
+2. במצב זמן, המשחק יסתיים כאשר מגבלת הזמן תיגמר.
+<br>
+3. לאחר סיום המשחק, תראה את התוצאה הסופית שלך ותהיה לך אפשרות לשחק שוב או לצאת מהמשחק.
+<br><br>
+<b>טיפים:</b>
+<br>
+1. התמקדו בחיתוך עוגות הקומות כדי לזכות בציונים גבוהים יותר.
+<br>
+2. שימו לב לפצצות והימנעו מלחתוך אותן כדי למנוע ניכוי ניקוד או הסרת לב.
+<br>
+3. שים לב למגבלת הזמן שנותרה במצב הזמן כדי למקסם את הניקוד שלך במסגרת הזמן הנתונה. 
+<br>
+זכור, המטרה העיקרית היא ליהנות תוך כדי משחק ולהשיג את הניקוד הגבוה ביותר האפשרי!
+    </p>
+    
+</div>
+<!-- <a href="home.html"><img style="width: 4vw; height: auto;" src="../images/exs/house_1f3e0 (2).png"></a> -->
+
+<script>
+    // second page
+const inputValue = JSON.parse(localStorage.getItem('inputValue'));
+//document.getElementById("backgroundHome").appendChild(inputValue);
+const name2=document.getElementById('showName');
+  console.log(inputValue);
+
+  name2.innerHTML="שלום "+inputValue;
+</script>
+
+</body>
+</html>

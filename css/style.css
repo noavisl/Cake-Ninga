@@ -1,0 +1,207 @@
+#backgroundHome {
+  background-image: url("../images/background/endBackground.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#backgroundGame {
+  background-image: url("../images/background/backgroundGame.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#score {
+  font-size: 250%;
+  color: rgb(170, 147, 255);
+  user-select: none;
+}
+
+#myScore {
+  font-size: 3vw;
+  text-shadow: 0px 0px 20px rgb(170, 147, 255);
+}
+
+#counterCake {
+  margin-top: 0%;
+  margin-right: 85%;
+  margin-bottom: 0%;
+  margin-left: 0%;
+  user-select: none;
+  width: 40%;
+  height: auto;
+
+}
+
+#heart {
+  position: absolute;
+}
+
+#myAnimation3 {
+  height: 20vh;
+  position: absolute;
+}
+
+#myAnimation2 {
+  height: 20vh;
+  position: absolute;
+}
+
+#myAnimation1 {
+  height: 20vh;
+  position: absolute;
+}
+
+#myAnimation {
+  height: 20vh;
+  position: absolute;
+  display: none;
+  user-select: none;
+}
+
+body {
+  overflow: hidden;
+  user-select: none;
+}
+
+#boom {
+  width: 1px;
+  height: 1px;
+  border-radius: 50%;
+  background-color: white;
+  z-index: 10000;
+  position: absolute;
+  animation-name: boom;
+  animation-duration: 0.5s;
+}
+
+#boom1 {
+  width: 1px;
+  height: 1px;
+  border-radius: 50%;
+  background-color: white;
+  z-index: 10000;
+  position: absolute;
+  animation-name: boom;
+  animation-duration: 0.5s;
+}
+
+#boom2 {
+  width: 1px;
+  height: 1px;
+  border-radius: 50%;
+  background-color: white;
+  z-index: 10000;
+  position: absolute;
+  animation-name: boom;
+  animation-duration: 0.5s;
+}
+
+#boom3 {
+  width: 1px;
+  height: 1px;
+  border-radius: 50%;
+  background-color: white;
+  z-index: 10000;
+  position: absolute;
+  animation-name: boom;
+  animation-duration: 0.5s;
+}
+
+@keyframes boom {
+  0% {
+    transform: scale(0, 0);
+  }
+
+  99% {
+    transform: scale(10000, 10000);
+  }
+
+  100% {
+    transform: scale(0, 0);
+  }
+}
+
+#clock {
+  position: absolute;
+  font-size: 250%;
+  color: beige;
+  user-select: none;
+}
+
+.linkToGames {
+  width: 20vh;
+  display: inline-block;
+  margin-right: auto;
+  margin-top: 20vh;
+}
+
+#custom-cursor {
+  position: fixed;
+  width: 120px;
+  height: 100px;
+  background-image: url("../images/knife/endKnife.png");
+  background-size: cover;
+  pointer-events: none;
+  z-index: 100;
+}
+
+#showName {
+  font-size: xx-large;
+  color: burlywood;
+  user-select: none;
+}
+
+h1 {
+  text-align: center;
+}
+
+span.head {
+  margin-left: 20%;
+  display: inline-table;
+}
+
+#myInput {
+  border: none;
+  background: none;
+  border-bottom: dashed;
+  border-color: beige;
+  height: 3vh;
+  width: auto;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  padding-top: 5vh;
+  color: beige;
+}
+
+#moveToGame {
+  position: absolute;
+}
+
+#id_instructions {
+  color: beige;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  display: inline-block;
+  padding-left: 10%;
+  padding-right: 25%;
+}
+
+#gameOver {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  z-index: 10;
+  display: none;
+  background-color: beige;
+  /* שם 50% מהרוחב והגובה של התמונה בכל צד כי אם לא התמונה מתחילה כולה אחרי ה50% מהאמצע ואז היא יותר בצד ימין */
+  transform: translate(-50%, -50%);
+  padding: 5%;
+  font-size: 1vw;
+  opacity: 85%;
+  /* border-radius: 90vh;
+  border-color:darkred;
+  border-width: 20%; */
+
+}

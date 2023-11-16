@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="../css/style.css">
+    <script src="../js/home.js"></script>
+    <title>CAKE NINJA- בית</title>
+    <link rel="icon" type="image/x-icon" href="../images/cakes/counterCake.png" />
+</head>
+<body id="backgroundHome" dir="rtl">
+    <p id="showName"></p>
+    <div>
+      <span class="linkHome">
+         <a href="instructions.html"><img style="position:absolute; bottom: 35vh; width: 10vw; height: auto; right: 28vw;" src="../images/exs/scroll_1f4dc.png"></a>
+      </span>
+      <span class="linkHome">
+         <a href="gameByTime.html"><img style="position:absolute; bottom: 27vh; width: 12vw; height: auto; right: 15vw;" class="linkToGames" src="../images/Hourglass2.png"></a>
+        </span>
+      <span class="linkHome">
+         <a href="gameOfHearts.html"><img style="position:absolute; bottom: 35vh;  width: 10vw; height: auto; right: 5vw;" class="linkToGames" src="../images/heart.png"></a>
+        </span>   
+    </div>
+    <div style="color: beige; top: 95vh; position: absolute; right: 30%; user-select: all;">
+    <i>&copy;</i>
+    <span>כל הזכויות שמורות לנועה ויסלובסקי ויעל אזולאי</span>
+        <span>|</span>
+     <span>yaelazulay12@gmail.com, 
+      noavisluvsky@gmail.com</span>
+    </div>
+<script>
+    // second page
+const inputValue = JSON.parse(localStorage.getItem('inputValue'));
+const name2=document.getElementById('showName');
+  console.log(inputValue);
+
+  name2.innerHTML="שלום "+inputValue;
+</script>
+
+
+</body>
+</html>
