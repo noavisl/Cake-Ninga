@@ -27,26 +27,26 @@ Open the `signUp.html` file in your web browser to start playing.
 
 ## Instructions
 
-For detailed game instructions, click [here] (#game-instructions).
+For detailed game instructions, click [here](#game-instructions).
 
-## Screenshots
+## Appearance of the game:
 
-### Registration Page
+### Registration Page:
 
 ![Registration Page](Description%20pictures/Registration%20page.png)
 
-### Game of Hearts
+### Game of Hearts:
 
 ![Game of Hearts](Description%20pictures/game%20of%20hearts.png)
 
-### Game Time
+### Game Time:
 
 ![Game Time](Description%20pictures/game%20time.png)
 
-### Home Page
+### Home Page:
 
 ![Home Page](Description%20pictures/home%20page.png)
 
-### Game Instructions
+### Game Instructions:
 
 ![Game Instructions](Description%20pictures/Game%20Instructions.png)
